@@ -1,0 +1,20 @@
+/* force scrolling for tabs */
+div.sphinx-tab {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+div.sphinx-tabs {
+    float: left;
+    width: 100%;
+
+    display: table;
+    overflow: hidden;
+}
+
+div.sphinx-tab {
+    float: left;
+    width: 100%;
+
+    display: table-row;
+}
