@@ -331,7 +331,7 @@ And go the browser
 
 And our list of *Pyroes* will be displayed
 
-.. thumbnail:: top2-00.png
+.. image:: top2-00.png
 
 Clicking on one of the Pyroes will:
 
@@ -339,13 +339,13 @@ Clicking on one of the Pyroes will:
 
   - Change the *class* of the selected *Pyro* so that it becomes highlighted
 
-.. thumbnail:: top2-01.png
+.. image:: top2-01.png
 
 And making changes in the editor is automatically reflected not only in the
 ``input`` field, but also in the uppercased name in the editor and in the list
 of *Pyroes*
 
-.. thumbnail:: top2-02.png
+.. image:: top2-02.png
 
 
 Notes

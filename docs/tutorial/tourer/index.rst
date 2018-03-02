@@ -460,7 +460,7 @@ By specifying ``'path': '*'`` (or ``**`` if wished) this will be the last
 resort route. To test it the sample offers a ``Save the World`` button in the
 ``PyroesComponent`` which routes to ``/save-the-world``
 
-.. thumbnail:: not-found-01.png
+.. image:: not-found-01.png
 
 When the button is clicked, the routing engine takes the application to the
 ``PageNotFoundComponent``, which in this case is really simple.
@@ -474,7 +474,7 @@ When the button is clicked, the routing engine takes the application to the
 
 Producing the following result on-screen.
 
-.. thumbnail:: not-found-02.png
+.. image:: not-found-02.png
 
 Named Outlet Routing
 ********************
@@ -527,19 +527,19 @@ which translates to:
 If we see our application at the *Disaster Center* (resizing the app to fit the
 view of the developer tools)
 
-.. thumbnail:: named-outlet-01.png
+.. image:: named-outlet-01.png
 
 In the Elements box, the named outlet tag has been highlighted. Clicking on
 ``Contact`` produces the following.
 
-.. thumbnail:: named-outlet-02.png
+.. image:: named-outlet-02.png
 
 Without disturbing the main view in ``<router-outlet>``, the contact form has
 been displayed inside ``<router-outlet name="popup">``. Moving to a different
 part of the application carries across the open form (we have added a message
 before moving away to show how the component remains unaltered)
 
-.. thumbnail:: named-outlet-03.png
+.. image:: named-outlet-03.png
 
 As shown a named outlet is not meant to be closed by navigating away from the
 route, because it has not changed the path and is transparently carried over,

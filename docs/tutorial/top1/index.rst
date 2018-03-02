@@ -356,11 +356,11 @@ And go the browser
 
 Which will deliver this.
 
-.. thumbnail:: top1-00.png
+.. image:: top1-00.png
 
 If we use the backspace key to delete part of the name, this is the result
 
-.. thumbnail:: top1-01.png
+.. image:: top1-01.png
 
 Blistering barnacles!!! The changes in the *input* field are automatically
 propagated to the name displayed above it. All thanks to reactive programming
@@ -378,7 +378,7 @@ let's concentrate in this tutorial in two aspects.
 Actual DOM Rendering
 --------------------
 
-.. thumbnail:: top1-html-elements.png
+.. image:: top1-html-elements.png
 
 Nothing surprising here: ``PyroesComponent`` has generated a
 ``<pyroes-component-2>`` HTML tag and when rendering this has been placed in

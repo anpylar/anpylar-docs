@@ -34,6 +34,18 @@ A route definition is a ``dict`` which can contain the following
     nested child routes, several components can be instantiated, one for each
     child, when a route is hit
 
+  - ``params`` (a *dict*)
+
+    The dictionary key is the name of the param for the route and the value is
+    a transformation function. For example::
+
+      'params': {'did': int},  # transformation function
+
+    ``did`` will show up as an int.
+
+    ``None`` can be specified as a transformation function to leave the
+    parameter untouched (i.e.: deliver it as a string)
+
   - ``path_match`` (string ``full``) Either not present or with the value
     ``full``. Used to match a route when the others have failed and the
     remaining content fully matches the ``path``

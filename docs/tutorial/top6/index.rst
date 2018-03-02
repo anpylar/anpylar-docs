@@ -603,48 +603,48 @@ And go the browser
 
 The start screen with the dashboard
 
-.. thumbnail:: top6-dashboard.png
+.. image:: top6-dashboard.png
 
 And because this is inviting, let's type something exciting like ``py``. If you
 type it fast, there will be no results displayed until ``300ms`` after you end
 typing it (this is a static document ... difficult to show it).
 
-.. thumbnail:: top6-dashboard-py.png
+.. image:: top6-dashboard-py.png
 
 In this case all *Pyroes* will be shown because they are all **Py** ro. Add a
 ``t`` to the string to form a ``pyt``
 
-.. thumbnail:: top6-dashboard-pyt.png
+.. image:: top6-dashboard-pyt.png
 
 The list has been reduced to 3 items. Play with the search functionality as
 much as you like. When you are done, let's go to our usual *Pyroes* list
 
-.. thumbnail:: top6-pyroes.png
+.. image:: top6-pyroes.png
 
 And let's give our new ``Add`` and ``Delete`` functionalities a try. We'll be
 deleting the 2nd Pyro (our friend *Mopynder*) to see how this is reflected in
 the dashboard and we'll be adding a new **super-pyro**: *Molpy Sanders*, who
 can locate any other *Pyro*.
 
-.. thumbnail:: top6-pyroes-before-add.png
+.. image:: top6-pyroes-before-add.png
 
 And after pressing the ``Add`` button
 
-.. thumbnail:: top6-pyroes-after-add.png
+.. image:: top6-pyroes-after-add.png
 
 Going back to the *Dashboard*
 
-.. thumbnail:: top6-dashboard-after-delete.png
+.. image:: top6-dashboard-after-delete.png
 
 Our old friend *Mopynder Shuresh* is no longer part of the Top Pyroes. In fact,
 if we search for him, we'll realize he's no longer part of the *Pyroes* at all
 (remember we have deleted him)
 
-.. thumbnail:: top6-dashboard-no-mopynder.png
+.. image:: top6-dashboard-no-mopynder.png
 
 Last but not least, let's see how our editor looks like.
 
-.. thumbnail:: top6-editor.png
+.. image:: top6-editor.png
 
 Up to the reader: edit and *Go back*. The changes won't be there. Edit and
 *Save* and the changes will be there (in the Dashboard -if part of the Top

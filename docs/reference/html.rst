@@ -26,3 +26,7 @@ HTML Supercharged Nodes
    .. automethod:: _display_toggle
 
    .. automethod:: _class
+
+   .. automethod:: class_
+
+   .. automethod:: classless_

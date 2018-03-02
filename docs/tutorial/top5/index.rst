@@ -628,12 +628,12 @@ with it to the ``DashboardComponent``
 Notice also in the picture how the ``Dashboard`` navigation button is
 highlighted. Recall that this is because we specified ``routerLinkActive``
 
-.. thumbnail:: top5-dashboard.png
+.. image:: top5-dashboard.png
 
 If we click on ``Pyroes``, we are taking to the familiar list of *Pyroes* and
 the url in the browser changes to ``/pyroes``
 
-.. thumbnail:: top5-pyroes.png
+.. image:: top5-pyroes.png
 
 Hitting the **browser's back arrow** takes us back to the ``Dashboard`` and the
 **forward arrow** takes us again to the ``Pyroes`` part. All within
@@ -642,7 +642,7 @@ application, not needed to go the network.
 From either the ``Dashboard`` or ``Pyroes`` just click on the name of a
 ``Pyro`` and let yourself be taken to the editor.
 
-.. thumbnail:: top5-pyrodetail.png
+.. image:: top5-pyrodetail.png
 
 Notice that neither ``Dashboard`` nor ``Pyroes`` in the navigation buttons are
 highlighted. And that's because the current route is neither of those.
@@ -664,7 +664,7 @@ And:
 
 Make some changes to the name ...
 
-.. thumbnail:: top5-pyrodetail-edited.png
+.. image:: top5-pyrodetail-edited.png
 
 And then choose your path:
 
@@ -677,7 +677,7 @@ And then choose your path:
 Simply play with the navigation. Here we'll click on ``Go Back`` and go back to
 the ``Dashboard`` where the editions are already taken into account
 
-.. thumbnail:: top5-dashboard-edited.png
+.. image:: top5-dashboard-edited.png
 
 
 That's all ... it's about time to go to the network ... in the next chapter.

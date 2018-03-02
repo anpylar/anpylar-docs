@@ -91,7 +91,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.todo',
     'sphinx_tabs.tabs',
-    'sphinxcontrib.images',
+    # 'sphinxcontrib.images',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -116,7 +116,7 @@ author = 'AnPyLar'
 # built documents.
 #
 # The short X.Y version.
-version = ''
+version = '1.1.4'
 # The full version, including alpha/beta/rc tags.
 release = ''
 

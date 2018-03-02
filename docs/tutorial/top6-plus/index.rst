@@ -77,7 +77,7 @@ We have used backslashes to make the command line readable. We have opened the
 developer console and highlighted the first network request from the browser to
 fetch the list of *Pyroes*
 
-.. thumbnail:: top6plus-dashboard-api-pyroes.png
+.. image:: top6plus-dashboard-api-pyroes.png
 
 You can do the and play with the application. Everything will be fetched from a
 real server. Ok ... it's only the toy development server which can act as a

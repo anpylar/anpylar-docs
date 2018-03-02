@@ -71,7 +71,7 @@ access the sample is displayed, which can be pasted in the browser.
 The server takes care already of delivering the ``index.html`` file and the
 result
 
-.. thumbnail:: top0-01.png
+.. image:: top0-01.png
 
 Let's look at the code and how we can modify the title of our application. The
 ``app_component.py`` contains the following code
@@ -131,7 +131,7 @@ Let's look at the code inside the ``<h1>`` tab
 The project is live and therefore transpilation takes place by simple reloading
 the page in browser. And the result:
 
-.. thumbnail:: top0-02.png
+.. image:: top0-02.png
 
 
 Some explaining
@@ -295,7 +295,7 @@ Actually, there is and you as end user can define it as in
 *AnPyLar* tries to make your life easier by auto-generating the
 ``selector`` if you provide none. See the resulting DOM elements
 
-.. thumbnail:: top0-html-elements.png
+.. image:: top0-html-elements.png
 
 In this case the auto-generated *selector* is clearly named:
 ``app-component-2``. Easy naming. If you wonder why the suffix ``-2``, this is
