@@ -15,6 +15,7 @@ import sys
 class Document:
     window = None
     body = None
+    head = None
 
 
 class Window:
