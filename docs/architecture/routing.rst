@@ -187,7 +187,8 @@ In this case it dpes not load a component but specifies a::
 to redirect to a different path. Notice that
 
   - The route definitions have no leading ``/`` because they are transformed
-    internally to be ``baseurl/path``
+    internally to be ``baseurl/path`` (if a leading ``/`` is specified, it will
+    be stripped internally to ensure proper route construction)
 
   - But when redirecting, we could be issuing a *relative* redirect (relative
     to the current path) or an absolute. In this case the redirect is absolute

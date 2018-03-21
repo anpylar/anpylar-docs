@@ -38,6 +38,23 @@ Properties of a *Module*
 
     - *routes*: which define the navigation hierarchy
 
+    - *selector* (default: ``None``)
+
+      The default behavior of a module controlling an application is that
+      things are plotted in the body of the html document. Where exactly is
+      decided by the rendering engine (i.e.: the browser in most cases).
+
+      If finer control is wished, one can
+
+        - Insert a ``<module-outlet></module-outlet>`` tag in the html document
+          and the module will use the tag as the root node for components to be
+          rendered to.
+
+        - Specify a different name in the module definition with for example
+          ``selector = 'my-module-tag'`` and later have this as a tag in the
+          html document as in: ``<my-module-tag></my-module-tag>``. Everything
+          will be rendered under this tag.
+
 
 An Empty Module
 ===============

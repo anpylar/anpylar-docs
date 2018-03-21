@@ -28,6 +28,8 @@ A route definition is a ``dict`` which can contain the following
     if ``path`` is ``*`` or ``**`` it will be the last resort
     (route-not-found) route
 
+    The ``path`` can start with a leading slash if wished for clarity.
+
   - ``component`` (a subclass of ``anpylar.Component``)
 
     Which component will be loaded when the route is a match. In the case of

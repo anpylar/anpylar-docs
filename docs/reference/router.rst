@@ -10,3 +10,5 @@ Router
    .. automethod:: back
 
    .. automethod:: forward
+
+   .. automethod:: navigate_to
