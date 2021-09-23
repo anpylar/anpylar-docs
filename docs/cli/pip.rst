@@ -21,7 +21,7 @@ Pure Python
 ***********
 
 Only packages which are pure Python can be installed. Those relying on ``C``
-extensions not supported.
+extensions are not supported.
 
 Furthermore: **NOT** all pure Python packages can be used. See
 :doc:`/technology` for the description of the underlying technology and the
@@ -33,7 +33,7 @@ Installing a package
 Let's use a known pure Python package which provides a framework for working with
 parameters in classes in a declarative manner: ``metaparams``
 
-Let's recall a standard project layout::
+Let's recall a standard project layout:
 
 .. code-block:: bash
 

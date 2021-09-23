@@ -27,7 +27,7 @@ To open your appetite here is a simple fully embedded component:
 
        def render(self, node):
            with node.select('h1') as h1:
-              h1_fmt(name=self.params.get('name', 'John Doe'))
+              h1._fmt(name=self.params.get('name', 'John Doe'))
 
 
 If the route taking the application to this component carries a ``name``

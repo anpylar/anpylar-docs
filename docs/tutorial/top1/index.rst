@@ -50,7 +50,7 @@ The generated python code would look like this in each case
           def render(self, node):
               pass
 
-   .. code-tab:: python (--htmlsheet) pyroes_component.py
+   .. code-tab:: python pyroes_component.py (with ``--htmlsheet``)
 
       from anpylar import Component, html
 
@@ -65,7 +65,7 @@ The generated python code would look like this in each case
           def render(self, node):
               pass
 
-The addition of the ``--htmlsheet`` has added an attribute with that name which
+The addition of ``--htmlsheet`` has added an attribute with that name which
 is a *literal string* in Python. We could then add the content as in::
 
       htmlsheet = '''
@@ -116,9 +116,9 @@ layout looks like this
        ├── package.json
        └── styles.css
 
-Out of curiosity and had we applied the ``--htmlsheet`` command line switch,
-the layout would miss one of the files: ``pyroes_component.html``, because the
-html content will be inside the component.
+Out of curiosity, had we applied the ``--htmlsheet`` command line switch, the
+layout would miss one of the files: ``pyroes_component.html``, because the html
+content would be inside the component.
 
 
 The Editor
@@ -208,7 +208,7 @@ explanation
    <https://github.com/ReactiveX/RxPY>`_.
 
 Although this is a NOP (No Operation) class, we will later find several use
-cases for the observables and the reactive programming.
+cases for the observables and reactive programming.
 
 
 Editing

@@ -91,7 +91,7 @@ rendered on-screen, the following (basically) happens
     becomes the parent node for the rendering of the component.
 
   - The component is then given the chance to render itself underneath
-    ``<router-outlet>``..
+    ``<router-outlet>``.
 
   - The component is told it is ``loading`` into the DOM by calling the method
     with the same name.
@@ -102,7 +102,7 @@ When navigating away from the route the following (basically) happens
     method with the same name.
 
   - The ``<router-outlet>`` tag is emptied (the component's html is removed
-    fromt he DOM).
+    from the DOM).
 
 Additionally:
 
@@ -127,7 +127,7 @@ This component adds a parameter entry::
   'params': {'pyd': int},  # param transformation function
 
 Which includes a remark that ``{'pyd': int}`` is a transformation function. A
-URL is a text string and parameters are therefore when parse also *text*. The
+URL is a text string and parameters are therefore when parsed also *text*. The
 possibility to specify a transformation function means that components don't
 have to care about the details. The details are being taken care of for them.
 
@@ -180,7 +180,7 @@ translates to
   - If nothing else remains to be matched in the route, then do the defined
     action
 
-In this case it dpes not load a component but specifies a::
+In this case it does not load a component but specifies a::
 
               'redirect_to': '/dashboard',
 
@@ -234,7 +234,7 @@ The key here is the ``load_children``::
         },
 
 In this case there is only 1 sub-module: ``DisasterCenterModule``. Any routes
-defined in this *module* will be loaded and treated as chil routes of our
+defined in this *module* will be loaded and treated as child routes of our
 main module. And
 
   - They will be available under the defined ``path``::
@@ -660,8 +660,8 @@ routing is also possible. The syntax::
 
   <router-outlet name="the-outlet-name">
 
-This functionality is intended for a kind of *dialog*/*form* service, in which
-content can:
+This functionality is intended for a kind of *dialog* or *form* service, in
+which content can:
 
   - Be shown in a specific tag, rather than relying on regular routing
     mechanics

@@ -1,7 +1,7 @@
 Apps/Modules/Components
 #######################
 
-There are three commands which can aid in creating the basic skeletons of
+There are three commands which can aid in creating the basic skeleton of
 
   - Applications: ``anpylar-application``
 

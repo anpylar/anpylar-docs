@@ -169,7 +169,7 @@ With the ``modules`` directive
 
 .. code-block:: python
 
-     class AppModule(Module:
+     class AppModule(Module):
          ...
 
          modules = LoginModule, PyroesModule
@@ -285,8 +285,8 @@ In both cases the routing hierarchy is further extended by:
 
 Both do also show:
 
-  - How *empty* paths can be used to add *Component* instances to the hiearchy,
-    but which do not contribute to path matching
+  - How *empty* paths can be used to add *Component* instances to the
+    hierarchy, but which do not contribute to path matching
 
     This can be, for example, used to have components which add some initial
     rendering or provide some joint functionality, which could be a *service*
@@ -375,7 +375,7 @@ class in *AnPyLar* and then overriding the ``can_activate`` method.
             self.router.route_to('/login', session_id=1234567890)
             return False
 
-In the sample the work is delegate to the ``check_login`` method, which uses
+In the sample the work is delegated to the ``check_login`` method, which uses
 the ``auth_service`` (as explained above) to check for the login status.
 
 Deactivation
@@ -416,7 +416,7 @@ The snippet shows the relevant parts of the code
     add no path but instantiate componentes.
 
     That why routing to ``''`` makes sense: we are routing within the same
-    hiearchy. In this particular case we know the routing engine won't select
+    hierarchy. In this particular case we know the routing engine won't select
     the ``DisasterDetailComponent`` because no parameter is passed (which is
     the tie breaker for our hierarchy with no path additions)
 

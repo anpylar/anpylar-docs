@@ -37,7 +37,7 @@ The *executor* is invoked with *callables*
   - The ``reject`` function which the *executor* has to invoke if the operation
     failed.
 
-When the *Promise* has been created, one can aweit *resolution* or *rejection*
+When the *Promise* has been created, one can await *resolution* or *rejection*
 by:
 
   - Invoking ``then(callable)`` for resolution.

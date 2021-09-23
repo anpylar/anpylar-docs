@@ -79,7 +79,7 @@ This is what happened:
     ``__webpack__`` directory.
 
 
-And now wwhen the application is served, everything will be directly served from the
+And now when the application is served, everything will be directly served from the
 contents stored in ``anpylar.js``
 
 The webpacking process can be tuned using ``package.json``. The options:

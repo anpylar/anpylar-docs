@@ -269,7 +269,7 @@ The lifecycle of a component follows this path.
     If no stylesheet has been defined, this method can return text content
     containing the stylesheet
 
-  - The method``render(node)`` will be called
+  - The method ``render(node)`` will be called
 
     **node** is the html element under which rendering takes place. If *html*
     code (from either a file or an inline definition) was available, it will

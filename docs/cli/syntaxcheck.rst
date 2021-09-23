@@ -11,7 +11,8 @@ There is nothing but standard programmer's work to alleviate the
 situation. But something was noticed during the development of *AnPyLar* and
 hence the tool ``anpylar-syntaxcheck``.
 
-  - Sometimes small syntax errors produce messages which are difficult
+  - Sometimes small syntax errors produce messages which are difficult to
+    decipher
 
 Being able to catch the syntax error before you even test it, is therefore
 something to consider.

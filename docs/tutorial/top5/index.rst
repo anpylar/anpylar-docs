@@ -539,8 +539,8 @@ a separate module and importing it.
               return Observable.from_(Pyroes).filter(lambda pyro: pyro.pyd == pyd)
 
 
-Our ``app_module.py`` import ``AppRouting`` from ``app_routing.py`` and sets it
-as the value for the routing::
+Our ``app_module.py`` imports ``AppRouting`` from ``app_routing.py`` and sets
+it as the value for the routing::
 
   ...
 
@@ -560,7 +560,7 @@ entries. Let's try to break the mystery:
           },
 
 
-If nothing else remains to be matched ``path: ''`` redirect to
+If nothing else remains to be matched ``path: ''`` redirects to
 ``/dashboard``. This is the default for the entry path. ``path_match: 'full'``
 ensures that the matching of ``path`` is against the full url and not a
 remaining url (which could be the case for children routes, which are not in
@@ -573,7 +573,7 @@ play here)
               'component': DashboardComponent
           },
 
-This says that when the remaining url to be match is ``dashboard``, the
+This says that when the remaining url to be matched is ``dashboard``, the
 component to be put in play in the ``<router-outlet>`` is:
 ``Dashboardcomponent``.
 
@@ -615,7 +615,7 @@ Let's execute
 
 With all that in place, we can go for it::
 
-  anpylar-serve top4
+  anpylar-serve top5
 
 And go the browser
 

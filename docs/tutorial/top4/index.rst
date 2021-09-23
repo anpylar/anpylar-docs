@@ -25,8 +25,8 @@ Copy the ``top3`` folder to ``top4`` and enter it. For example, with::
 Adding a ``PyroService``
 ========================
 
-A service in *AnPyLar* has no specific requirements: the attributes, API
-(*methods*) is for the end user to define.
+A service in *AnPyLar* has no specific requirements: the attributes and API
+(*methods*) are for the end user to define.
 
 .. note:: A ``Service`` base class might be implemented in the future giving
           services certain default properties, like parent-child

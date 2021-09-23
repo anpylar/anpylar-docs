@@ -9,7 +9,7 @@ is because like *AnPyLar* itself ... it hadn't been done before (in the
 *browser*, we mean)
 
 It builds on being able to run *Python* in the browser and on the per-se
-asynchronous nature of hot things are executed. For the implementation the
+asynchronous nature of how things are executed. For the implementation the
 following reference sources have been used:
 
   - `The Reactive Extensions for Python (RxPY)
@@ -154,12 +154,12 @@ The chain of events
     same search term twice in a row.
 
   - ``switch_map(lambda x: self.pyro_search.search(x) if x else [])`` chooses
-    what to delivering a new *Observable*. In this case it chooses between an
+    what to deliver as a new *Observable*. In this case it chooses between an
     empty ``[]`` or the return value of ``self.pyro_search.search(x)`` (which
     will by the way also be an *Observable*) using the incoming value ``x`` as
-    the key for the choice.
-    In effect, it tries to avoid sending a query to the network if the value
-    typed by the end user is empty. This can be resolved locally.
+    the key for the choice.  In effect, it tries to avoid sending a query to
+    the network if the value typed by the end user is empty. This can be
+    resolved locally.
 
   - ``catch_exception(lambda e: print('search error:', e) or [])`` catches any
     errors and in our case logs them to the console and replaces the result for

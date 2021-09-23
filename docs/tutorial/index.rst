@@ -6,7 +6,7 @@ Tutorial - Tour of Pyroes
 but with a *Py* approach.
 
 At the same time and to depart from it, the tutorial will also pay tribute to
-the TV Series *Heroes* (2006-2010) in which you will come to know as the
+the TV Series *Heroes* (2006-2010) in what you will come to know as the
 *Pyroes*.
 
 You can see (and play the samples live), just follow the links:
@@ -27,7 +27,7 @@ and even mix and match the different ways.
 
 That's the reason why *Part 0* of the tutorial is presented with three
 different approaches, whose names are based on the role the developer wishes to
-work:
+work with:
 
   - *Htmlista*
 

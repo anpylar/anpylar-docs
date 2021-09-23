@@ -6,7 +6,7 @@ For the reference see: :doc:`/reference/module`
 A *Module* is the main control unit for several components, which for example
 will all access a shared service defined in the module.
 
-A *Module* can host Submodules* which will be either specified through
+A *Module* can host *Submodules* which will be either specified through
 ``Modules`` or inside the *routes* directive with ``load_children``.
 
 The module is responsible for instantiating the one-and-only ``router``
@@ -102,6 +102,6 @@ This defines a *Module* that:
   - Bootstraps the component ``AppComponent`` before the routing engine takes
     over
 
-  - Instantiates the routing engine with two routes: *http://baseurl/``one``*
-    and *http://baseurl/``two``* for which components ``OneComponent`` and
+  - Instantiates the routing engine with two routes: ``http://baseurl/one`` and
+    ``http://baseurl/two`` for which components ``OneComponent`` and
     ``TwoComponent`` will be respectively instantiated

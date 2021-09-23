@@ -29,7 +29,7 @@ Being the question then: *How does the start-up process work?*
 
 
 .. note:: Anyone familiar with *Brython* (the underlying technology) will
-          notice that a ``brython()`` call is needed to kickstart everythin
+          notice that a ``brython()`` call is needed to kickstart everything
           when when the body is loaded.
 
           This is all automatically managed by *AnPyLar* when everything is

@@ -3,7 +3,7 @@ Part 2 - List of Pyroes
 
 Editing the name of a *Pyro* and having it automatically (or is it
 auto-magically?) in other elements is already a great thing. But a single
-*Pyro* would probably neither save the plane nor him/herself.
+*Pyro* would probably neither save the planet nor him/herself.
 
 That's why the other *Pyroes* come to the rescue and we need to be able to
 display a list with all the names to be able to choose which one will be
@@ -178,7 +178,7 @@ There have been several changes. Let's detail some of them:
 
     - References in the editor now are to a ``selected_`` observable
 
-  - The Python part>
+  - The Python part:
 
     - Defines the ``Pyroes`` in ``mock_pyroes.py`` which are imported into the
       component
@@ -243,8 +243,8 @@ list. Let's look at how observables are used:
 
   - ``li._bindx.click(self.selected_, pyro)``
 
-    The *list item* click even is bound to call ``self.selected_`` with a value
-    of ``pyro`` (the corresponding one during the loop)
+    The *list item* click event is bound to call ``self.selected_`` with a
+    value of ``pyro`` (the corresponding one during the loop)
 
     ``_bindx`` is specifically not named ``_bind`` to indicate that **NO**
     event is going to be delivered to the callback.
@@ -267,7 +267,7 @@ list. Let's look at how observables are used:
        self.selected = pyro
 
     Even if not obvious from the example this has an advantage when using the
-    *Obervsable* attribute in ``lambda`` expresisons.
+    *Observable* attribute in ``lambda`` expressions.
 
     This is valid Python code
 

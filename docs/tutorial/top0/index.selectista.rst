@@ -46,8 +46,6 @@ Which will be already functional. With the addition of the ``--title "Tour of
 Pyroes"`` switch a title will be added to the main component. More on this
 later.
 
-.. note:: The actual samples have a
-
 Let's get our hands dirty by serving the application::
 
   anpylar-serve top0

@@ -119,7 +119,7 @@ The Service *Namespace*
 ***********************
 
 In both *Component* and *Module* classes, one can define the following
-directive::
+directive:
 
 .. code-block:: python
 
