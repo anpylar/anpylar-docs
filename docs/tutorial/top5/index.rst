@@ -78,6 +78,7 @@ The project layout now
       ├── package.json
       └── styles.css
 
+
 Notice that we will be adding:
 
   - A ``dashboard`` directory for the ``DashboardComponent``
@@ -429,7 +430,9 @@ And we put some content in the generated files
 
 
 The Html part is pretty dull, just a placeholder for the rendering that will be
-done in the Python part, which
+done in the Python part, with:
+
+.. tabs::
 
    .. code-tab:: python dashboard_component.html
 
