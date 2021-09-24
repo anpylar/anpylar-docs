@@ -217,7 +217,7 @@ Submodules via ``routes``
 
 .. code-block:: python
 
-     class AppModule(Module:
+     class AppModule(Module):
          routes = [
              ...
 
